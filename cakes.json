@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Fun Cake",
+        "flavor":"Confetti",
+        "price": "$45",
+        "size": "8 inch",
+        "image": "https://i.pinimg.com/1200x/5e/65/b8/5e65b8de91f097f8cd6def32c3f2267f.jpg"
+    },
+    {
+        "name": "Moon & Sun Cake",
+        "flavor":"Marble",
+        "price": "$65",
+        "size": "9 inch",
+        "image": "https://i.pinimg.com/736x/d5/25/86/d525861f9e0479478ae2251320b69316.jpg"
+    },
+    {
+        "name": "Sandy Biscoff Cake",
+        "flavor":"Biscoff",
+        "price": "$45",
+        "size": "8 inch",
+        "image": "https://i.pinimg.com/1200x/81/1a/3b/811a3b272bdf051d02002071ceb6177c.jpg"
+    },
+    {
+        "name": "Heart Bento Cake",
+        "flavor":"Strawberry",
+        "price": "$25",
+        "size": "6 inch",
+        "image": "https://i.pinimg.com/1200x/aa/03/69/aa0369c3d55c6c6f83b4137939812580.jpg"
+    },
+    {
+        "name": "Cheetah Bento Cake",
+        "flavor":"Chocolate",
+        "price": "$25",
+        "size": "6 inch",
+        "image": "https://i.pinimg.com/736x/61/bc/be/61bcbe57911dddabe4f2997d142c2ef4.jpg"
+    },
+    {
+        "name": "Spiderman",
+        "flavor":"Red Velvet",
+        "price": "$45",
+        "size": "6 inch",
+        "image": "https://i.pinimg.com/1200x/00/10/92/0010921e229b28f57f0fac86385d4a10.jpg"
+    },
+    {
+        "name": "Strawberry Shortcake Cake",
+        "flavor":"Strawberry",
+        "price": "$45",
+        "size": "6 inch",
+        "image": "https://i.pinimg.com/1200x/6a/54/9a/6a549ab1192c649c72c83020fd97effc.jpg"
+    },
+    {
+        "name": "Cinnamoroll Cake",
+        "flavor":"Gingerbread",
+        "price": "$45",
+        "size": "6 inch",
+        "image": "https://i.pinimg.com/736x/20/ec/d5/20ecd5169bb73a5c3290b69d2dca6dc9.jpg"
+    }
+]

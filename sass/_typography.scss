@@ -1,0 +1,46 @@
+.heading-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.heading-3 {
+  font-family: $font-display;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.heading-4 {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.heading-4--light {
+  color: $color-light;
+}
+
+.heading-4--dark {
+  color: $color-dark;
+}
+.brand-name {
+  font-size: clamp(3.5rem, 6vw, 5rem);
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    135deg,
+    #c0566e,
+    
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-bottom: 1rem;
+}

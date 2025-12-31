@@ -1,0 +1,62 @@
+/*BUTTONS*/
+
+.btn {
+  background-color: $color-accent;
+  color: $color-light;
+  padding: 1rem 2.5rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: darken($color-accent, 10%);
+    transform: translateY(-3px);
+  }
+}
+
+.header__btn {
+  margin-top: 2rem;
+}
+
+/*BAKER CARDS */
+
+.realtors__card {
+  background-color: $color-light;
+  padding: 2rem;
+  border-radius: 1.6rem;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+  }
+
+  img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 1.2rem;
+  }
+
+  .realtors__sold {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: $color-accent;
+  }
+}
+
+/*FEATURE BLOCK*/
+
+.feature {
+  h4 {
+    margin-bottom: 0.8rem;
+  }
+
+  &__text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}

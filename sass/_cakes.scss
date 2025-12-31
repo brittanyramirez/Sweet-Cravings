@@ -1,0 +1,32 @@
+.cakes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 3rem;
+  padding: 5rem;
+}
+
+.cake {
+  background: $color-light;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-6px);
+  }
+
+  img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+
+  .price {
+    font-weight: 700;
+    color: $color-primary;
+  }
+}
+

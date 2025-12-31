@@ -1,0 +1,66 @@
+section {
+  padding: 8rem 4rem;
+}
+
+.header {
+  position: relative;
+  width: cover;
+  background-image: url("/images/herobakery.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: #fde8ea;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  
+  z-index: 1;
+}
+
+.header > * {
+  position: relative;
+  z-index: 2;
+}
+//tablet
+
+@media (min-width: 768px) {
+  .header {
+    padding: 5rem 3rem;
+  }
+
+  .realtors__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cakes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+//desktop
+@media (min-width: 1200px) {
+  .header {
+    padding: 6rem;
+  }
+
+  .realtors__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .cakes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .gallery__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
